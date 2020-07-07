@@ -34,7 +34,7 @@ console.log("subtotal: $"+runningTotal+".00");
 
 function getTopping(runningTotal, text1) {
     var toppingTotal=0;
-    var selectedTopping = []
+    var selectedTopping = [];
     var toppingArray = document.getElementsByClassName("toppings");
     for (var j = 0; j < toppingArray.length; j++) {
         if (toppingArray [j].checked) {
